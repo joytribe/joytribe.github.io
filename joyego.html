@@ -10,22 +10,23 @@
   <main>
     <h1>Privacy Policy for JoyeGo</h1>
     <p><strong>Effective date:</strong> July 19, 2026</p>
-    <p><strong>Last updated:</strong> July 19, 2026</p>
+    <p><strong>Last updated:</strong> July 21, 2026</p>
 
     <p>
-      JoyeGo is an offline Go learning and training app that provides interactive lessons and
-      on-device games against a bundled Go engine. This Privacy Policy explains how JoyeGo handles
-      information when you use the app.
+      JoyeGo is a Go learning and training app that provides interactive lessons and on-device games
+      against a bundled Go engine. Its teaching, gameplay, scoring, and Go-engine features operate
+      locally. Internet access is used only to request and display Google AdMob app open ads. This
+      Privacy Policy explains how JoyeGo handles information when you use the app.
     </p>
 
     <h2>1. Information JoyeGo Handles</h2>
     <p>
-      JoyeGo does not require an account and does not operate a cloud server for collecting or
-      storing user information. The app does not ask you to provide a name, email address, phone
-      number, photo, audio recording, contacts, precise location, payment information, or other
-      personal information.
+      JoyeGo does not require an account and does not operate its own cloud server for collecting or
+      storing user information or gameplay. The app does not ask you to provide a name, email
+      address, phone number, photo, audio recording, contacts, precise location, payment information,
+      or other personal information.
     </p>
-    <p>The app handles only the following limited information on your device:</p>
+    <p>The app handles only the following limited information:</p>
     <ul>
       <li>
         Unfinished-game data, including board size, selected difficulty, stone positions, move
@@ -35,29 +36,40 @@
         Temporary lesson, screen, and gameplay state needed to provide the app's teaching and
         training features.
       </li>
+      <li>A local preference recording whether sound effects are enabled.</li>
       <li>
-        Bundled course content, language resources, and Go-engine files required to run the app.
+        A local timestamp recording when an app open ad was last shown, used only to control ad
+        frequency.
       </li>
+      <li>
+        Bundled course content, language resources, sound files, and Go-engine files required to run
+        the app.
+      </li>
+      <li>Information processed by Google AdMob when an ad is requested, as described below.</li>
     </ul>
 
     <h2>2. Offline Gameplay and Go-Engine Processing</h2>
     <p>
-      JoyeGo processes lessons, board positions, scoring, move legality, and computer moves locally
-      on your device. Board positions used by the bundled KataGo-based engine are processed on the
-      device and are not uploaded to us or sent to an online Go service.
+      JoyeGo processes lessons, board positions, scoring, move legality, computer moves, animations,
+      and sound effects locally on your device. Board positions used by the bundled KataGo-based
+      engine are processed on the device and are not uploaded to us, Google AdMob, or an online Go
+      service.
     </p>
     <p>
-      The app does not declare the Android internet permission and does not include advertising,
-      analytics, crash-reporting, account, social-network, or cloud-sync services. JoyeGo does not
-      display ads and does not make in-app purchases available.
+      The teaching and training features remain available without a network connection. If an ad
+      cannot be loaded, JoyeGo continues to the main screen without requiring the user to connect.
+      JoyeGo does not provide account, social-network, cloud-sync, or online-match services and does
+      not make in-app purchases available.
     </p>
 
     <h2>3. Local App Data and Android Backup</h2>
     <p>
       JoyeGo automatically stores an unfinished training game in the app's private storage so that
-      you can continue it later. This information is used only to restore the game on your device.
-      Completed games are not retained as unfinished games. A newer game may replace an earlier
-      saved game.
+      you can continue it later. Completed games are not retained as unfinished games. A newer game
+      may replace an earlier saved game. The sound-effects setting is stored locally so that the app
+      can remember your preference. The app also stores the time when an app open ad was last shown
+      to avoid displaying ads too frequently. This timestamp does not directly identify the user and
+      is not uploaded to a server controlled by us.
     </p>
     <p>
       The bundled Go model may be copied from the installed app package into private app storage so
@@ -66,22 +78,63 @@
     </p>
     <p>
       Depending on your Android device, account, backup provider, and backup settings, Android may
-      back up and restore some private app data, such as the saved unfinished game. Any system-level
-      backup is controlled by your device and backup provider and is governed by their settings and
-      privacy policies. JoyeGo itself does not transmit this data to a server operated by us.
+      back up and restore some private app data. Any system-level backup is controlled by your device
+      and backup provider and is governed by their settings and privacy policies. JoyeGo itself does
+      not transmit saved games, preferences, or Go-engine data to a server operated by us.
     </p>
 
-    <h2>4. Permissions</h2>
+    <h2>4. Advertising</h2>
     <p>
-      JoyeGo does not request internet, camera, microphone, contacts, location, phone, SMS, calendar,
-      nearby-device, advertising-ID, or broad photo, media, and file-access permissions.
+      JoyeGo uses Google AdMob to show app open ads. The Google Mobile Ads SDK may automatically
+      collect and share information such as IP address, general location derived from IP address,
+      app interactions, diagnostic information, and device, app, or account-related identifiers for
+      advertising, analytics, fraud prevention, security, and service operation.
+    </p>
+    <p>
+      JoyeGo configures every ad request for child age treatment, requests non-personalized ads, and
+      limits ad content to Google's G rating. JoyeGo also removes the Android advertising ID and
+      Privacy Sandbox advertising permissions from the app. Google states that personalized
+      advertising and remarketing are disabled and the Android Advertising ID is not transmitted for
+      ad requests marked for child age treatment. These settings limit advertising data use but do
+      not prevent Google from processing all network, interaction, diagnostic, or fraud-prevention
+      information.
+    </p>
+    <p>Google processes information under its own policies. You can learn more here:</p>
+    <ul>
+      <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+      <li><a href="https://policies.google.com/technologies/ads">Google Advertising Technologies</a></li>
+      <li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google Mobile Ads SDK Data Disclosure</a></li>
+      <li><a href="https://support.google.com/admob/answer/6219315">Google AdMob Age-Restricted Treatment</a></li>
+    </ul>
+
+    <h2>5. Permissions</h2>
+    <p>JoyeGo may use the following Android permissions:</p>
+    <ul>
+      <li><strong>Internet access:</strong> used to request and display Google AdMob ads.</li>
+      <li>
+        <strong>Network state access:</strong> used by advertising services to determine whether
+        network access is available.
+      </li>
+      <li>
+        <strong>Wake lock:</strong> declared by the Google Mobile Ads SDK to support ad loading and
+        display.
+      </li>
+      <li>
+        <strong>Foreground service:</strong> declared by the Google Mobile Ads SDK for advertising
+        service operation. JoyeGo does not use it to run the Go engine or collect gameplay.
+      </li>
+    </ul>
+    <p>
+      JoyeGo does not request camera, microphone, contacts, precise location, phone, SMS, calendar,
+      nearby-device, advertising-ID, or broad photo, media, and file-access permissions. Playing
+      bundled sound effects does not require microphone access.
     </p>
 
-    <h2>5. Third-Party Components</h2>
+    <h2>6. Third-Party Components</h2>
     <p>
-      JoyeGo includes open-source software components such as KataGo and Eigen to provide offline Go
-      move generation. These components run as part of the app on your device and are not integrated
-      as online services or data-collection SDKs.
+      JoyeGo includes Google Mobile Ads SDK for advertising and open-source software components such
+      as KataGo and Eigen for offline Go move generation. KataGo and Eigen run as part of the app on
+      your device and are not integrated as online services or data-collection SDKs.
     </p>
     <p>
       The app store, Android operating system, device manufacturer, or backup provider may process
@@ -90,61 +143,73 @@
       services.
     </p>
 
-    <h2>6. Data Sharing and Sale</h2>
+    <h2>7. Data Sharing and Sale</h2>
     <p>
-      JoyeGo does not sell, rent, share, or transmit personal information or gameplay data to us,
-      advertisers, analytics providers, data brokers, or other third parties. We do not operate a
-      server that receives your board positions, lesson activity, saved games, device identifiers,
-      or contact details.
+      JoyeGo does not sell personal information. We do not operate a server that receives names,
+      contact details, board positions, lesson activity, saved games, photos, audio, or precise
+      location, and the app does not intentionally provide those items to Google AdMob.
+    </p>
+    <p>
+      Information may be collected and shared by Google AdMob as necessary to request, deliver,
+      measure, secure, and improve advertising services, subject to the child-directed configuration
+      described above and Google's own policies.
     </p>
 
-    <h2>7. Data Retention and Deletion</h2>
+    <h2>8. Data Retention and Deletion</h2>
     <p>
       An unfinished game remains in private app storage until it is completed, replaced, cleared
-      with the app's data, or removed when the app is uninstalled. You can delete locally stored
-      JoyeGo data at any time by clearing the app's storage in Android settings or uninstalling the
-      app. Data restored by an Android backup is controlled through the relevant device and backup
-      provider settings.
+      with the app's data, or removed when the app is uninstalled. The sound-effects preference and
+      local ad-display timestamp remain until they are changed or removed by clearing app data or
+      uninstalling the app. Data restored by an Android backup is controlled through the relevant
+      device and backup provider settings.
+    </p>
+    <p>
+      Information processed by Google AdMob is subject to Google's retention and deletion practices.
+      Requests concerning information handled by Google should be directed to Google using the
+      privacy controls and contact methods described in Google's policies.
     </p>
 
-    <h2>8. Children's Privacy</h2>
+    <h2>9. Children's Privacy</h2>
     <p>
-      JoyeGo is a general-audience learning app that may also be used by children. The app does not
-      knowingly collect personal information from children or any other users. It does not provide
-      account registration, public profiles, chat, social features, user-content uploads,
-      advertising, or in-app purchases.
+      JoyeGo is a general-audience learning app that may also be used by children. We do not knowingly
+      collect personal information directly from children. The app does not include account
+      registration, public profiles, chat, social features, user-content uploads, or in-app
+      purchases.
     </p>
     <p>
-      If you are a parent or guardian and believe that personal information has been collected
-      through JoyeGo, please contact us using the address below.
-    </p>
-
-    <h2>9. International Data Transfers</h2>
-    <p>
-      JoyeGo does not transfer app or gameplay data to a server controlled by us in any country or
-      region. Android system services, app stores, device manufacturers, and backup providers may
-      process information in different countries or regions according to their own policies and
-      your settings.
+      Advertising requests are marked for child age treatment, are non-personalized, and are limited
+      to G-rated ad content. If you are a parent or guardian and believe personal information from a
+      child has been collected through JoyeGo, please contact us. If the information was handled by
+      Google AdMob, you may also need to contact Google directly.
     </p>
 
-    <h2>10. Security</h2>
+    <h2>10. International Data Transfers</h2>
     <p>
-      JoyeGo minimizes privacy risk by working offline, avoiding accounts and sensitive permissions,
-      and storing unfinished-game data in Android's private app storage. No method of electronic
-      storage is completely secure, and the security of device-level storage and backups also
-      depends on your device, operating system, account, and backup-provider settings.
+      JoyeGo keeps its locally stored gameplay data and preferences on the device and does not
+      transfer them to a server controlled by us. Google AdMob may process information on servers
+      located in different countries or regions in accordance with Google's policies and applicable
+      law.
     </p>
 
-    <h2>11. Changes to This Privacy Policy</h2>
+    <h2>11. Security</h2>
     <p>
-      We may update this Privacy Policy when JoyeGo's features, data practices, third-party
-      components, distribution methods, or legal requirements change. When changes are made, the
-      "Last updated" date at the top of this page will be revised.
+      JoyeGo minimizes data handling by processing teaching and gameplay locally, avoiding accounts
+      and sensitive permissions, and storing unfinished-game data and preferences in Android's
+      private app storage. No method of electronic storage or network transmission is completely
+      secure, and third-party services apply their own security practices.
     </p>
 
-    <h2>12. Contact Us</h2>
+    <h2>12. Changes to This Privacy Policy</h2>
     <p>
-      If you have questions about this Privacy Policy or JoyeGo's privacy practices, contact us at:
+      We may update this Privacy Policy when JoyeGo's features, data practices, third-party services,
+      distribution methods, or legal requirements change. When changes are made, the "Last updated"
+      date at the top of this page will be revised.
+    </p>
+
+    <h2>13. Contact Us</h2>
+    <p>
+      If you have questions about this Privacy Policy, JoyeGo's privacy practices, or a child's
+      information, contact us at:
       <a href="mailto:joyetribe@163.com">joyetribe@163.com</a>
     </p>
   </main>
